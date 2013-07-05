@@ -20,10 +20,10 @@ gem 'rolify'
 gem 'sendgrid'
 gem 'simple_form', '~> 3.0.0.rc'
 gem 'thin'
-group :assets do
-  gem 'compass-rails'
-  gem 'zurb-foundation'
-end
+
+gem 'compass-rails'
+gem 'zurb-foundation'
+
 group :development do
   gem 'guard-bundler'
   gem 'guard-rails'
